@@ -1,0 +1,1184 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "NotoSansArabic-Regular", sans-serif;
+}
+
+@font-face {
+  font-family: "NotoSansArabic-Regular";
+  src: url("../fontsNotoSansArabic-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.phoneClas {
+  width: 500px;
+  height: 100px;
+}
+
+.header {
+  max-width: 1920px;
+  height: 666px;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 666px;
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  height: 666px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.elemBg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.girls {
+  position: absolute;
+  width: 1376px;
+  height: 644px;
+  left: 315px;
+  top: 22px;
+  z-index: 3;
+}
+
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  z-index: 4;
+}
+
+.betLogo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 62px;
+  z-index: 5;
+}
+
+.firstInput {
+  /* position: absolute; */
+  width: 384px;
+  height: 64px;
+  border: 2px solid #366799;
+  background-color: #09223F;
+  border-radius: 8px;
+  box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.15), 0px 15px 12px rgba(0, 0, 0, 0.11);
+  padding: 22px 24px;
+  display: block;
+  margin: 72px auto 21px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+input::-webkit-input-placeholder {
+  color: #ffffff;
+  text-align: right;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.444444px;
+}
+
+input::-moz-placeholder {
+  color: #ffffff;
+  text-align: right;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.444444px;
+}
+
+input::-ms-placeholder {
+  color: #ffffff;
+  text-align: right;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.444444px;
+}
+
+input::-ms-input-placeholder {
+  color: #ffffff;
+  text-align: right;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.444444px;
+}
+
+input::placeholder {
+  color: #ffffff;
+  text-align: right;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.444444px;
+}
+
+.spText {
+  width: 182px;
+  height: 42px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.number-phone {
+  width: 205px;
+  height: 64px;
+  padding: 32px 28px 16px;
+  background: #09223F;
+  border: 2px solid #366799;
+  box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.15), 0px 15px 12px rgba(0, 0, 0, 0.11);
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.code-country {
+  width: 157px;
+  height: 64px;
+  background: #09223F;
+  border: 2px solid #366799;
+  box-sizing: border-box;
+  box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.15), 0px 15px 12px rgba(0, 0, 0, 0.11);
+  border-radius: 8px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.iti.iti--container {
+  top: 411px;
+  left: 50%;
+  width: 400px;
+  height: 500px;
+}
+
+.iti__country-name {
+  color: #222;
+}
+
+.iti__flag-container {
+  right: 0 !important;
+  left: auto !important;
+}
+
+.iti__arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 11px solid #ffffff;
+}
+
+.iti__arrow--up {
+  border-top: none;
+  border-bottom: 11px solid #555;
+}
+
+.iti__selected-dial-code {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 0 8px;
+}
+
+.iti__flag-container {
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.checkBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  z-index: 20;
+}
+
+.labCheck {
+  margin-left: 133px;
+}
+
+.checkLabel {
+  position: relative;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+.checkLabel::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 5px;
+  background-color: #FFC800;
+  margin-left: 10px;
+}
+.checkLabel::before {
+  content: "✔";
+  position: absolute;
+  z-index: 10;
+  font-size: 15px;
+  color: #222;
+  right: -25px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.checkInput {
+  display: none;
+}
+
+.checkInput:checked + .checkLabel::before {
+  opacity: 1;
+}
+
+.yellowInput {
+  display: block;
+  margin: 60px auto;
+  width: 400px;
+  height: 88px;
+  background: linear-gradient(89.2deg, #FFDC25 0.14%, rgba(255, 138, 0, 0.73) 99.29%), #FFD90F;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  letter-spacing: 1.35px;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 76px;
+  padding: 15px;
+}
+
+.yellowInput::-ms-input-placeholder {
+  font-size: 30px;
+  text-align: center;
+}
+
+.yellowInput::placeholder {
+  font-size: 30px;
+  text-align: center;
+}
+
+.bg320 {
+  display: none;
+}
+
+.shadowBg {
+  display: none;
+}
+
+.secondSection {
+  width: 1920px;
+  background-image: url(../img/group.png);
+  height: 320px;
+}
+
+.container {
+  width: 1200px;
+  height: inherit;
+  margin: 0 auto;
+}
+
+.elementsBox {
+  display: flex;
+  height: inherit;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imageElem {
+  width: 280px;
+  height: 280px;
+}
+
+.thirdSection {
+  width: 1920px;
+  height: 552px;
+  position: relative;
+  background-image: url(../img/thirdBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bonus {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 84px;
+  text-align: center;
+  padding-top: 41px;
+}
+
+.bonusYellow {
+  color: #FFC800;
+}
+
+.usd {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 200px;
+}
+
+.usdImg {
+  position: absolute;
+}
+
+.arrDown {
+  position: absolute;
+  z-index: 3;
+  align-self: center;
+  top: -30px;
+  width: 86px;
+  height: 48px;
+}
+
+.thirdWrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thirdInput {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 48px;
+}
+
+.yellowInput--change {
+  margin: 0;
+  align-self: center;
+}
+
+.thirdLeft {
+  position: absolute;
+  width: 306px;
+  height: 477px;
+  left: 21%;
+  margin-top: 30px;
+}
+
+.thirdRight1 {
+  position: absolute;
+  top: 60px;
+  right: 322px;
+}
+
+.thirdRight2 {
+  position: absolute;
+  right: 53px;
+  bottom: 26px;
+}
+
+.triunghi {
+  position: absolute;
+  width: 332px;
+  height: 231px;
+  left: 280.34px;
+  top: 122px;
+  transform: rotate(-4.45deg);
+}
+
+.footer {
+  width: 1920px;
+  height: 376px;
+  background: #000D21;
+}
+
+.container--footer {
+  height: 250px;
+}
+
+.footerWrapp {
+  width: 100%;
+  height: inherit;
+  position: relative;
+  padding-top: 64px;
+  display: flex;
+}
+.footerWrapp::before {
+  content: "";
+  position: absolute;
+  border: 1px solid #423A4D;
+  top: 32px;
+  width: 100%;
+  z-index: 5;
+}
+.footerWrapp::after {
+  content: "";
+  position: absolute;
+  border: 1px solid #423A4D;
+  top: 245px;
+  width: 100%;
+  z-index: 5;
+}
+
+.pokerImg {
+  margin-bottom: 16px;
+}
+
+.cardboxSecond {
+  width: 488px;
+  height: 152px;
+}
+
+.cardbox {
+  width: 488px;
+  height: 152px;
+  margin-right: 32px;
+}
+
+.footerText {
+  width: 1200px;
+  position: relative;
+  height: 80px;
+  display: block;
+  margin: auto;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  color: #CCCCCC;
+  margin-top: 24px;
+}
+
+.firstP {
+  position: absolute;
+}
+
+.secondP {
+  position: absolute;
+  padding-top: 14px;
+}
+
+@media screen and (max-width: 770px) {
+  .header {
+    background-image: url(../img/bg768.jpg);
+  }
+
+  .bg-img {
+    display: none;
+  }
+
+  .elemBg {
+    display: none;
+  }
+
+  .labCheck {
+    margin-left: 133px;
+  }
+
+  .girls {
+    left: -50px;
+    width: 898px;
+    bottom: 0;
+    top: auto;
+    height: 570px;
+  }
+
+  .iti.iti--container {
+    top: 50%;
+    left: 40%;
+    width: 380px;
+    height: 300px;
+  }
+
+  .iti__arrow {
+    margin-left: 20px;
+  }
+
+  .secondSection {
+    width: 768px;
+    height: 512px;
+  }
+
+  .container {
+    width: 500px;
+  }
+
+  .imageElem {
+    width: 232px;
+    height: 192px;
+  }
+
+  .thirdRight1 {
+    display: none;
+  }
+
+  .thirdRight2 {
+    display: none;
+  }
+
+  .triunghi {
+    display: none;
+  }
+
+  .thirdLeft {
+    display: none;
+  }
+
+  .thirdSection {
+    width: 768px;
+    background-image: url("../img/third768.png");
+  }
+
+  .footer {
+    width: 768px;
+    height: 700px;
+  }
+
+  .footerWrapp {
+    flex-direction: column;
+  }
+  .footerWrapp::before {
+    content: "";
+    width: 672px;
+    display: block;
+    margin-left: -100px;
+  }
+  .footerWrapp::after {
+    content: "";
+    width: 672px;
+    display: block;
+    margin-left: -87px;
+    top: 525px;
+  }
+
+  .poker {
+    margin-bottom: 24px;
+  }
+
+  .pokerImg {
+    margin-bottom: 0;
+    width: 232px;
+    height: 81px;
+    margin-right: 31px;
+  }
+
+  .casinoImg {
+    width: 232px;
+    height: 81px;
+  }
+
+  .cardbox {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+
+  .cardbox2,
+.cardbox1 {
+    width: 500px;
+  }
+
+  .footerText {
+    width: 672px;
+    height: 144px;
+    margin-left: 50px;
+    top: 276px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .header {
+    width: 330px;
+    height: 933px;
+    background-image: url(../img/bg320.jpg);
+  }
+
+  .center-wrapper {
+    padding: 0 30px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .iti.iti--container {
+    top: 50%;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .girls {
+    display: none;
+  }
+
+  .inputs {
+    flex-direction: column;
+  }
+
+  .iti__flag-container {
+    width: 270px;
+  }
+
+  .number-phone {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .code-country {
+    width: 100%;
+  }
+
+  input#phone.code-country.code-country--change {
+    padding-left: 260px !important;
+  }
+
+  .firstInput {
+    margin: 70px 0 0 0;
+    width: 270px;
+  }
+
+  .checkBox {
+    width: 100%;
+  }
+
+  .checkLabel {
+    padding-right: 27px;
+  }
+
+  .labCheck {
+    margin-left: 30px;
+  }
+
+  .spText {
+    margin-top: 20px;
+  }
+
+  .yellowInput {
+    width: 100%;
+  }
+
+  .checkLabel::before {
+    right: 3px;
+  }
+
+  .betLogo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 150px;
+    top: -20px;
+    align-self: center;
+  }
+
+  .bg320 {
+    display: flex;
+  }
+
+  .girl-left {
+    position: absolute;
+    width: 280px;
+    height: 761px;
+    left: 0px;
+    bottom: 0;
+    z-index: 3;
+  }
+
+  .girl-right {
+    position: absolute;
+    width: 259px;
+    height: 756px;
+    right: 0;
+    bottom: 0;
+  }
+
+  .iti__selected-flag {
+    justify-content: space-between;
+  }
+
+  .iti__selected-dial-code {
+    margin-left: 110px !important;
+  }
+
+  .iti__arrow {
+    margin-left: 10;
+  }
+
+  .shadowBg {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: rgba(0, 8, 28, 0.8);
+    filter: blur(60px);
+    border-radius: 64px;
+    z-index: -1;
+  }
+
+  .secondSection {
+    width: 100%;
+    height: 1000px;
+  }
+
+  .container {
+    width: 232px;
+    height: 100%;
+  }
+
+  .imageElem {
+    width: 232px;
+    height: 192px;
+    padding: 0 10px;
+  }
+
+  .bonus {
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .usd {
+    align-items: center;
+    margin-bottom: -30px;
+  }
+
+  .usdImg {
+    width: 272px;
+    height: 100px;
+  }
+
+  .arrDown {
+    width: 86px;
+    height: 48px;
+    top: -6px;
+  }
+
+  .thirdSection {
+    width: 320px;
+    background-image: url("../img/third320.png");
+  }
+
+  .footer {
+    width: 320px;
+    height: 666px;
+  }
+
+  .container--footer {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .poker {
+    display: flex;
+  }
+
+  .pokerImg {
+    width: 128px;
+    height: 44px;
+    margin-right: 16px;
+  }
+
+  .casinoImg {
+    width: 128px;
+    height: 44px;
+  }
+
+  .cardbox,
+.cardboxSecond,
+.cardbox1,
+.cardbox2 {
+    width: 272px;
+    height: 83px;
+  }
+
+  .footerWrapp {
+    padding-top: 40px;
+  }
+  .footerWrapp::before {
+    content: "";
+    display: none;
+  }
+  .footerWrapp::after {
+    content: "";
+    display: none;
+  }
+
+  .container--footer {
+    height: 32px;
+  }
+
+  .footerText {
+    width: 320px;
+    padding: 0 24px;
+    margin-left: 0;
+  }
+
+  .firstP,
+.secondP {
+    max-width: 272px;
+  }
+
+  .secondP {
+    padding-top: 42px;
+  }
+}
